@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --bg-color-first:#2A527A;
+    --bg-color-second:#F8FAFB;
+    --color-text-first:#2A527A;
+    --color-text-second:white;
+}
+li+img{
+    height:30px;
+}
+/* img{
+    max-height: 280px;
+} */
+body,html{
+    height: 100%;
+    color:var(--color-text-first);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    width:55%;
+    margin:0px auto;
+}
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: var(--bg-color-first);
+    color:white;
+    padding:10px 0px 0px 0px;
+
+}
+.logo,.group-button-header{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.group-button-header>button{
+    padding:10px 35px;
+    border:none;
+    border-radius: 5px;
+}
+.logo>img{
+    width:3%;
+}
+header >.container> .content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:10px;
+}
+.nav{
+    background-color: white;
+    color:black;
+    padding:20px 0px;
+    
+}
+/* .nav>.container>.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+} */
+.container>.content>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+}
+
+.text-sections{
+    
+    font-size:18px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+section{
+    padding:50px 0px;
+}
+
+.MIS-section{
+    margin-top:117px;
+    background-color: var(--bg-color-second);
+}
+.text-MIS-section>.text-sections{
+    margin-bottom:40px;
+}
+.flex-section>.container>.content{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 0.05fr 1fr;
+    gap:0px 25px;
+}
+.block-text{
+    grid-row: 1/3;
+}
+.flex-section>.container>.content>img{
+    width:100%;
+    grid-row: 2/3;
+}
+/* .MIS-section>.container{
+    
+} */
+.title-text-MIS-section{
+    margin-bottom: 33px;
+    color:var(--color-text-first);
+    font-weight: bold;
+}
+.block-company-achievments{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:100px;
+}
+.block-company-achievments>div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.block-company-achievments>div>p{
+    font-size:14px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.block-company-achievments>div>h1{
+    font-size:60px;
+    line-height: 96px;
+}
+.block-company-achievments>div>img{
+    max-width: 28px;
+    margin-bottom:10px;
+}
+.text-company-achievments{
+    text-align: center;
+
+}
+.text-company-achievments>h2{
+    line-height: 1.5;
+    margin-bottom:15px;
+}
+.our-clients>.container>.content{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
