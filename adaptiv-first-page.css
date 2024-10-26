@@ -1,0 +1,98 @@
+@media(max-width:1180px){
+    .flex-section > .container > .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    header>.container>.content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        gap:0;
+    }
+    .flex-section > .container > .content>.block-text{
+        order: 1;
+    }
+    .flex-section > .container > .content>img{
+        order: 2;
+        width: 90%;
+    }
+    main > .MIS-section > .container > .content > img{
+        margin-top:60px;
+    }
+    ul > div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 10px 0px;
+        flex-direction: column;
+    }
+    .content > .block-text{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media(max-width:900px){
+    .logo{
+        gap: 25px;
+    }
+    .group-button-header,.nav{
+        visibility: hidden;
+    }
+    .burger-menu{
+        visibility: visible;
+    }
+    .MIS-section{
+        margin-top: 59px;
+    }
+    header{
+        height:48px;
+    }
+    .rewiew.right{
+        margin:0;
+    }
+    .rewiew.left{
+        margin:50px 0px;
+    }
+    
+    .press-about-us > .container > div {
+        max-width:500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+}
+@media(max-width:720px){
+    .our-clients{
+        margin:0 auto;
+        max-width:400px;
+        padding-top:0px;
+    }
+    .our-clients>.container>.content{
+        flex-wrap:wrap;
+    }
+    
+}
+@media(max-width:490px){
+    .rewiew{
+        flex-direction: column;
+    }
+    .container>.rewiew > .text-rewiew > div,.text-rewiew{
+        text-align: center;
+    }
+    .rewiew>img{
+        order: 1;
+    }
+    .rewiew>.text-rewiew{
+        order:2;
+    }
+}

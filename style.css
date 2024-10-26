@@ -38,6 +38,13 @@ li{
     width:90%;
     margin:0px auto;
 }
+.burger-menu{
+    visibility: hidden;
+    height: 100%;
+}
+.burger-menu>img{
+    height: 100%;
+}
 .MIS-section,.access-anywhere,.easily-manage,.tools-for-professional,.easy-integration,.press-about-us{
     background-color: var(--bg-color-second);
 }
@@ -61,16 +68,16 @@ header{
     align-items: center;
     gap:10px;
 }
-.group-button-header>button{
-    padding:10px 35px;
-    border:none;
-    border-radius: 5px;
+.logo{
+    height:28px;
 }
 .logo>img{
-    width:3%;
+    height: 100%;
 }
 .group-button-header>.btn-join-free,.group-button-header>.sign-in{
     color:white;
+    border-radius: 5px;
+    padding:10px 35px;
     font-weight: bold;
     font-size:13px;
 }
@@ -102,7 +109,7 @@ header >.container> .content{
     justify-content: center;
     align-items: center;
     padding-bottom:10px;
-    gap:45vw;
+    gap:23vw;
 }
 .nav{
     background-color: white;
