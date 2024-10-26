@@ -99,9 +99,10 @@ section>.container>.content>.block-text>.btn-join-free{
 }
 header >.container> .content{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom:10px;
+    gap:45vw;
 }
 .nav{
     background-color: white;
@@ -155,7 +156,7 @@ main>.MIS-section> .container > .content > img{
 .flex-section>.container>.content{
     display:flex;
     justify-content: center;
-    gap:10px;
+    gap:2%;
 }
 
 .flex-section>.container>.content>img{
@@ -169,7 +170,7 @@ main>.MIS-section> .container > .content > img{
 }
 
 .content>.block-text{
-    max-width: 36%;
+    max-width: 59%;
 }
 
 
