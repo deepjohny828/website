@@ -35,7 +35,7 @@ li{
     list-style-type: none;
 }
 .container{
-    width:55%;
+    width:90%;
     margin:0px auto;
 }
 .MIS-section,.access-anywhere,.easily-manage,.tools-for-professional,.easy-integration,.press-about-us{
@@ -163,11 +163,13 @@ section{
 
 .flex-section>.container>.content.left-png>img{
     width:100%;
+    min-width: 500px;
     grid-row:2/3;
     grid-column: 1/2;
 }
 .flex-section>.container>.content.right-png>img{
     width:100%;
+    min-width: 500px;
     grid-column:2/3;
     grid-row:2/3;
 }
