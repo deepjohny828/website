@@ -1,0 +1,23 @@
+@media(max-width:1180px){
+    header>.container>.content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        gap:0;
+    }
+}
+@media(max-width:900px){
+    .logo{
+        gap: 25px;
+    }
+    .group-button-header,.nav{
+        visibility: hidden;
+    }
+    .burger-menu{
+        visibility: visible;
+    }
+    header{
+        height:48px;
+    }
+}

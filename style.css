@@ -179,11 +179,6 @@ main>.MIS-section> .container > .content > img{
 .content>.block-text{
     max-width: 59%;
 }
-
-
-/* .MIS-section>.container{
-    
-} */
 .title-text-MIS-section{
     margin-bottom: 33px;
     color:var(--color-text-first);
