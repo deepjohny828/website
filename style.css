@@ -271,15 +271,17 @@ main>.MIS-section> .container > .content > img{
     justify-content: center;
     gap:50px;
 }
-ul>div{
+
+.list>li{
     display:flex;
     align-items: center;
     gap:10px;
     margin:10px 0px;
 }
-ul>div>img{
+.list>li>img{
     max-width: 22px;
 }
+
 .title-customer-reviews{
     background-color: var(--bg-color-second);
     padding:40px;
