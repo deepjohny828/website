@@ -22,6 +22,55 @@ a:hover{
 li+img{
     height:30px;
 }
+div.menu-btn > div > div {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+div.menu-btn > div{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.menu-btn {
+    font-size: 70px;
+    cursor: pointer;
+    color:white;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 420px;
+    width: 100%;
+    height: 100%;
+}
+.sidebar {
+    position: fixed;
+    left: -470px;
+    top: 58px;
+    width: 400px;
+    height: 100%;
+    background-color: var(--bg-color-first);
+    transition: left 0.3s ease;
+    color:white;
+    padding:0px 10px;
+}
+.sidebar>ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    gap:10px;
+}
+.group-button-header-sidebar{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.group-button-header-sidebar>button{
+    width: 180px;
+}
 button:hover{
     cursor:pointer;
 }
@@ -37,14 +86,9 @@ li{
 .container{
     width:90%;
     margin:0px auto;
+    max-width: 1440px;
 }
-.burger-menu{
-    visibility: hidden;
-    height: 100%;
-}
-.burger-menu>img{
-    height: 100%;
-}
+
 .MIS-section,.access-anywhere,.easily-manage,.tools-for-professional,.easy-integration,.press-about-us{
     background-color: var(--bg-color-second);
 }
@@ -74,18 +118,19 @@ header{
 .logo>img{
     height: 100%;
 }
-.group-button-header>.btn-join-free,.group-button-header>.sign-in{
+.group-button-header>.btn-join-free,.group-button-header>.sign-in,
+.group-button-header-sidebar>.sign-in,.group-button-header-sidebar>.btn-join-free{
     color:white;
     border-radius: 5px;
     padding:10px 35px;
     font-weight: bold;
     font-size:13px;
 }
-.group-button-header>.sign-in{
+.group-button-header>.sign-in,.group-button-header-sidebar>.sign-in{
     background-color: inherit;
     border:1px solid gray;
 }
-.group-button-header>.sign-in:hover{
+.group-button-header>.sign-in:hover,.group-button-header-sidebar>.sign-in:hover{
     border:1px solid rgb(188, 188, 188);
 }
 .btn-join-free{
@@ -96,6 +141,9 @@ header{
     border:none;
     border-radius: 5px;
     padding:13px 20px;
+}
+.group-button-header-sidebar{
+    width:100%;
 }
 .btn-join-free:hover{
     background-color: var(--bg-color-third-hover);

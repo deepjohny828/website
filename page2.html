@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style-page2.css">
   <link rel="stylesheet" href="adaptiv-second-page.css">
+  <script src="/script.js" defer></script>
   <title>Тарифы</title>
 </head>
 <body>
@@ -12,13 +13,18 @@
     <div class="container">
       <div class="content">
         <div class="logo">
-          <div class="burger-menu">
-            <img src="z.png" alt="">
-          </div>
           <img src="z.png" alt="logo-png" />
           <p>MIS</p>
         </div>
-        
+        <div class="burger-menu" id="burgerMenu">
+          <div class="menu-btn" id="menu-btn">
+              <div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+          </div>
+      </div>
         <div class="group-button-header">
           <button class="sign-in">Вход</button>
           <button class="btn-join-free">Подключиться бесплатно</button>
@@ -29,13 +35,27 @@
       <nav class="container">
         <div class="content">
           <ul>
-            <li><a href="">link-1</a></li>
+            <li><a href="/website/page2.html">Тарифы</a></li>
             <li><a href="">link-2</a></li>
             <li><a href="">link-3</a></li>
             <li><a href="">link-4</a></li>
           </ul>
-        </dic>
+        </div>
       </nav>
+    </div>
+    <div class="sidebar" id="sidebar">
+      <div class="group-button-header-sidebar">
+        <button class="sign-in">Вход</button>
+        <button class="btn-join-free">Подключиться бесплатно</button>
+      </div>
+      <ul>
+        <li><a href="/website/page2.html">Тарифы</a></li>
+        <li><a href="">link-2</a></li>
+        <li><a href="">link-3</a></li>
+        <li><a href="">link-4</a></li>
+      </ul>
+    </div>
+    <div class="overlay" id="overlay"></div>
     </div>
   </header>
   <main>
