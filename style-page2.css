@@ -3,13 +3,13 @@
     padding:0;
 }
 :root{
-    --bg-color-first:#2A527A;
-    --bg-color-alt-first:#1F4973;
+    --bg-color-first:#21adb9;
+    --bg-color-alt-first:#1f8f99;
     --bg-color-second:#F8FAFB;
-    --bg-color-third:#57C954;
-    --bg-color-third-hover:#60dc5c;
-    --shadow-color-third-hover:#57C954;
-    --color-text-first:#2A527A;
+    --bg-color-third:#c4594f;
+    --bg-color-third-hover:#b85a52;
+    --shadow-color-third-hover:#a54d43;
+    --color-text-first:#1f8f99;
     --color-text-second:white;
     --color-text-third:#9EB0C3;
     --color-text-five:#587796;
@@ -30,7 +30,7 @@ button:hover{
 div.menu-btn > div > div {
     width: 30px;
     height: 3px;
-    background-color: white;
+    background-color: var(--color-text-second);
 }
 div.menu-btn > div{
     display:flex;
@@ -42,6 +42,7 @@ div.menu-btn > div{
     cursor: pointer;
     color:white;
 }
+
 .overlay {
     display: none;
     position: fixed;
@@ -284,7 +285,7 @@ main{
 }
 .bottom-footer{
     background-color: var(--bg-color-alt-first);
-    color:#496A8C;
+    color:var(--color-text-second);
     padding:15px;
 }
 .bottom-footer>.container>ul{

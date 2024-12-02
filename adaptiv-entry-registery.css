@@ -1,0 +1,15 @@
+@media (max-width:905px){
+    .background-login{
+        display: none;
+    }
+    form{
+        margin:0 auto;
+        width:50%;
+        border:none;
+    }
+}
+@media (max-width:450px){
+    form{
+        width:100%;
+    }
+}
