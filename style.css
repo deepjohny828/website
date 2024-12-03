@@ -245,6 +245,7 @@ main>.MIS-section> .container > .content > img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     
 }
 .block-company-achievments>div>p{
