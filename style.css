@@ -197,7 +197,7 @@ header >.container> .content{
     line-height: 1.7;
     margin-bottom: 20px;
 }
-section{
+main > div{
     padding:50px 0px;
 }
 
@@ -215,8 +215,11 @@ main>.MIS-section> .container > .content > img{
     display:flex;
     justify-content: center;
     gap:2%;
+    margin:20px 0px;
 }
-
+ul.list{
+    margin-bottom:50px;
+}
 .flex-section>.container>.content>img{
     /* width:100%; */
     /* min-width: 726px; */
@@ -357,6 +360,7 @@ main>.MIS-section> .container > .content > img{
 .top-footer{
     background-color: var(--bg-color-first);
     color:var(--bg-color-second);
+    margin-top: 50px;
 }
 .top-footer>.container>ul{
     display:flex;
