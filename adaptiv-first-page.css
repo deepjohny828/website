@@ -99,6 +99,15 @@
     }
     
 }
+@media (max-width:530px){
+    .bottom-footer > .container > ul{
+        display: block;
+    }
+    .top-footer > .container > ul.hide{
+        display:none;
+    }
+
+}
 @media(max-width:490px){
     .group-button-header-sidebar{
         width:50%;
