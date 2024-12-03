@@ -19,6 +19,17 @@ a{
     text-decoration: none;
     color: var(--color-text-first);
 }
+.logo,.group-button-header{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.logo{
+    height:28px;
+}
+.logo>img{
+    height: 100%;
+}
 main{
     display: flex;
     flex-direction: row-reverse;

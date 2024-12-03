@@ -24,6 +24,17 @@ main{
     display: flex;
     height:100%;
 }
+.logo,.group-button-header{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.logo{
+    height:28px;
+}
+.logo>img{
+    height: 100%;
+}
 form{
     text-align: center;
     width:25%;
