@@ -104,6 +104,7 @@ li{
 .container{
     width:90%;
     margin:0px auto;
+    max-width: 1440px;
 }
 header{
     position: fixed;
@@ -154,10 +155,10 @@ header{
 }
 header >.container> .content{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-bottom:10px;
-    gap:23vw;
+
 }
 .nav{
     background-color: white;
@@ -205,6 +206,24 @@ main{
     padding:20px;
     background-color: white;
     box-shadow: 0px 0px 10px var(--color-text-third);
+}
+#second-block-tarif > div.main-block-tarif >p.blue{
+    color:var(--bg-color-first);
+}
+#second-block-tarif > .header-block-tarif > span{
+    background-color: var(--bg-color-first);
+}
+#second-block-tarif > .main-block-tarif > button{
+    background-color: var(--bg-color-third);
+    color:white;
+}
+.main-block-tarif > button:hover{
+    background-color: rgb(238, 236, 236);
+    box-shadow: 0px 0px 13px rgb(170, 169, 169);
+}
+#second-block-tarif > .main-block-tarif > button:hover{
+    background-color: var(--bg-color-third-hover);
+    box-shadow: 0px 0px 13px var(--shadow-color-third-hover);
 }
 .header-block-tarif{
     display: flex;

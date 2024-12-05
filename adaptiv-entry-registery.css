@@ -1,4 +1,7 @@
 @media (max-width:905px){
+    body{
+        background-color: white;
+    }
     .background-login{
         display: none;
     }

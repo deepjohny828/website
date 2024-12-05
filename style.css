@@ -12,6 +12,7 @@
     --color-text-first:#1f8f99;
     --color-text-second:white;
 }
+
 a{
     text-decoration: none;
     color:inherit;
@@ -157,10 +158,10 @@ section>.container>.content>.block-text>.btn-join-free{
 }
 header >.container> .content{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-bottom:10px;
-    gap:23vw;
+    
 }
 .nav{
     background-color: white;
@@ -203,6 +204,7 @@ main > div{
 
 .MIS-section{
     margin-top:117px;
+    padding: 50px;
 }
 main>.MIS-section> .container > .content > img{
     margin-top: 0;

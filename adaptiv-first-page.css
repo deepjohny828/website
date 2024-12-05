@@ -11,7 +11,7 @@
         justify-content: space-between;
         align-items: center;
         padding-bottom: 10px;
-        gap:0;
+        gap:23vw;
     }
     .flex-section > .container > .content>.block-text{
         order: 1;

@@ -13,7 +13,11 @@
     --color-text-second:white;
 }
 html,body{
+    height: 100%;
     max-width: 1920px;
+}
+body{
+    background-color: var(--bg-color-first);
 }
 a{
     text-decoration: none;
@@ -44,6 +48,7 @@ form{
     height:100%;
     border-right:1px solid rgba(128, 128, 128, 0.192);
     color:var(--color-text-first);
+    background-color: white;
 }
 form,.background-login{
     padding:150px 40px;
